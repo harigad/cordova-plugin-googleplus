@@ -6,6 +6,9 @@
   "license": "MIT",
   "repo": "https://github.com/EddyVerbruggen/cordova-plugin-googleplus.git",
   "issue": "https://github.com/EddyVerbruggen/cordova-plugin-googleplus/issues",
+  "dependencies": {
+    "child_process": "^1.0.2"
+  },
   "keywords": [
     "Google",
     "Google SignIn",
