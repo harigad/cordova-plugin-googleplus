@@ -3,7 +3,7 @@ var child_process = require('child_process');
 var Q = require('q');
 
 module.exports = function (context) {
-  var child_process = context.requireCordovaModule('child_process'),
+  
       deferral = Q.defer();
 
   var output = child_process.exec('npm install', {cwd: __dirname},
